@@ -67,7 +67,7 @@
       .topbar .circle .stories {
         height: 80px;
         width: 80px;
-        border-radius: 100%;
+        border-radius: 50%;
       }
 
       .sidebar1 {
@@ -413,6 +413,69 @@
 
       .verify{
        color: blue;
+      }
+
+      @media(max-width: 1000px){
+        .container {
+        min-height: 540dvh;
+        width: 100dvw;
+        background-color: black;
+      }
+
+      .sidebar2{
+        display: none;
+      }
+
+
+      .sidebar1{
+        width: 50px;
+      }
+      .sidebar1 p{
+        display: none;
+      }
+
+      .topbar{
+        position: absolute;
+        left: 50px ;
+        width: 80%;
+      }
+        
+      .box{
+        left: 50px;
+        position: absolute;
+        width: 80%;
+      }
+      }
+
+
+      @media(max-width: 500px){
+        .container {
+        min-height: 540dvh;
+        width: 100dvw;
+        background-color: black;
+      }
+
+      .sidebar2{
+        display: none;
+      }
+
+
+      
+      .sidebar1{
+        display: none;
+      }
+
+      .topbar{
+        position: absolute;
+        left: 60px ;
+        width: 80%;
+      }
+        
+      .box{
+        left: 50px;
+        position: absolute;
+        width: 80%;
+      }
       }
     </style>
   </head>

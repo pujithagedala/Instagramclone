@@ -426,7 +426,10 @@
         display: none;
       }
 
+      .insta-logo{
+        display: <i class="fa-brands fa-instagram instagram-icon"></i>;
 
+      }
       .sidebar1{
         width: 50px;
       }
@@ -461,7 +464,7 @@
 
 
       
-      .sidebar1{
+      .sidebar1 p{
         display: none;
       }
 
@@ -473,6 +476,34 @@
         
       .box{
         left: 50px;
+        position: absolute;
+        width: 80%;
+      }
+      }
+
+      @media(max-width: 250px){
+        .container {
+        min-height: 540dvh;
+        width: 100dvw;
+        background-color: black;
+      }
+
+      .sidebar2{
+        display: none;
+      }
+
+      .sidebar1{
+        display: none;
+      }
+
+      .topbar{
+        position: absolute;
+        left: 60px ;
+        width: 80%;
+      }
+        
+      .box{
+        left: 0px;
         position: absolute;
         width: 80%;
       }
